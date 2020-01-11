@@ -3,52 +3,62 @@
     {
       "title": "Камуфляж и шпионаж  ",
       "rating": 9.0,
-      "age": 0
+      "age": 0,
+      "image": "images/1.jpg"
     },
     {
       "title": "Звёздные Войны: Скайуокер. Восход",
       "rating": 8.07,
-      "age": 12
+      "age": 12,
+      "image": "images/2.jpg"
     },
     {
       "title": "Жора Гуля",
       "rating": 5.75,
-      "age": 12
+      "age": 12,
+      "image": "images/3.png"
     },
     {
       "title": "Джуманджи: Новый уровень ",
       "rating": 8.82,
-      "age": 12
+      "age": 12,
+      "image": "images/4.jpg"
     },
     {
       "title": "Исцеляющая ",
       "rating": 0.0,
-      "age": 16
+      "age": 16,
+      "image": "images/5.jpg"
     },
     {
       "title": "Красные туфельки и семь гномов",
       "rating": 6.67,
-      "age": 0
+      "age": 0,
+      "image": "images/6.jpg"
     },
     {
       "title": "Холоп ",
       "rating": 7.80,
-      "age": 12
+      "age": 12,
+      "image": "images/7.jpg"
     },
     {
       "title": "Вторжение ",
       "rating": 5.41,
-      "age": 12
+      "age": 12,
+      "image": "images/8.jpg"
     },
     {
       "title": "Фиксики против кработов",
       "rating": 8.00,
-      "age": 0
+      "age": 0,
+      "image": "images/9.jpg"
     },
     {
       "title": "Холодное сердце 2 ",
       "rating": 9.16,
-      "age": 0
+      "age": 0,
+      "image": "images/10.jpg"
     }
   ]
 }

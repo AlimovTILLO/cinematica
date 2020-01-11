@@ -42,26 +42,18 @@ class App extends Component {
     console.log(this.state.movies)
     return (
       <div className="App">
-        <table>
-          <thead>
-            <tr>
-              <th>Названия</th>
-              <th>Рейтинг</th>
-              <th>Возрастное ограничение</th>
-            </tr>
-          </thead>
-          <tbody>
-            {this.state.movies.sort((a, b) => b.rating - a.rating).map((post, index) => {
+        <div id='grid'>
+          {this.state.movies.sort((a, b) => b.rating - a.rating).map((post, index) => {
               return (
-                <tr key={index}>
-                  <td>{post.title}</td>
-                  <td>{post.rating}</td>
-                  <td>{post.age}+</td>
-                </tr>
+                <div class="parent" key={index}>
+                  <div class="div1">{post.title}</div>
+                  <div class="div2">{post.rating}</div>
+                  <div class="div3">{post.age}+</div>
+                  <div class="div4"><img src={process.env.PUBLIC_URL + post.image} alt={post.title}></img></div>
+                </div>
               )
             })}
-          </tbody>
-        </table>
+        </div>
       </div>
     )
   }
