@@ -1,3 +1,5 @@
+/* Main */
+
 body {
   margin: 0;
   font-size: 15px;
@@ -17,13 +19,13 @@ body {
   padding: 30px;
   position: relative;
   background-color: rgb(224, 219, 219);
-  margin-bottom: 20px;
 }
 
 .header__inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: auto;
 }
 
 /* Container */
@@ -34,11 +36,14 @@ body {
   margin: 0 auto;
 }
 
-#grid {
+#grid { 
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 2vw;
+  margin: 20px;
 }
+
+/* Card */
 
 .card {
   display: grid;
@@ -50,17 +55,18 @@ body {
   padding: .5em;
   text-align: center;
   width: 220px;
-  height: 400px;
+  height: 450px;
   position: relative;
   border-top: 1px solid #eee;
   border-right: 1px solid #eee;
   border-left: 1px solid #eee;
   border-radius: 5px 5px 5px 5px;
   background-color: rgb(247, 247, 247);
+  margin: auto;
 }
 
 .card__title {
-  grid-area: 1 / 1 / 10 / 4;
+  grid-area: 1 / 1 / 2 / 4;
 }
 
 .card__rating {
