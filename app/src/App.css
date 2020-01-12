@@ -5,19 +5,8 @@ body {
   color: black;
 }
 
-*,
-*:before,
-*:after {
+*, *:before, *:after {
   box-sizing: border-box;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
 }
 
 
@@ -37,7 +26,6 @@ h6 {
   align-items: center;
 }
 
-
 /* Container */
 
 .container {
@@ -52,10 +40,14 @@ h6 {
   grid-gap: 2vw;
 }
 
-#grid>div {
+.card {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
   font-size: 16px;
   padding: .5em;
-  /* background: gold; */
   text-align: center;
   width: 220px;
   height: 400px;
@@ -67,31 +59,23 @@ h6 {
   background-color: rgb(247, 247, 247);
 }
 
-.parent {
-  display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(10, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-}
-
-.div1 {
+.card__title {
   grid-area: 1 / 1 / 10 / 4;
 }
 
-.div2 {
+.card__rating {
   grid-area: 10 / 1 / 11 / 3;
 }
 
-.div3 {
+.card__age {
   grid-area: 10 / 3 / 11 / 4;
 }
 
-.div4 {
+.card__image {
   grid-area: 9 / 3 / 10 / 4;
 }
 
-.div4 > img {
+.card__image>img {
   width: 200px;
   height: 300px;
 }
